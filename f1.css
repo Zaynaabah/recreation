@@ -1,0 +1,110 @@
+body{
+    width: 100%;
+    min-height: 100%;
+    box-sizing: border-box;
+}
+
+.index{
+    display: flex;
+    margin: auto;
+    padding: 10%;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.second{
+    background-color:  hsl(31, 77%, 52%);
+    width: 200px;
+    height: 43vh;
+    padding: 50px;
+    color: #fff;
+    border-radius: 10px 0 0 10px; 
+}
+
+.second input{
+    background-color: #fff;
+    border:1px #fff solid;
+    border-radius: 15px;
+    color: hsl(31, 77%, 52%);
+    width: 100px;
+    height: 30px;
+    margin: 70px 0 0 0;
+    font-weight: 500;
+}
+
+.third{
+    background-color:  hsl(184, 100%, 22%);
+    width: 200px;
+    height: 43vh;
+    padding: 50px;
+    color: #fff;
+}
+
+.third input{
+    background-color: #fff;
+    border: 1px #fff solid;
+    border-radius: 15px;
+    color: hsl(184, 100%, 22%);
+    width: 100px;
+    height: 30px;
+    margin: 70px 0 0 0;
+    font-weight: 500;
+}
+
+.fourth{
+    background-color: hsl(179, 100%, 13%);
+    width: 200px;
+    height: 43vh;
+    padding: 50px;
+    color: #fff;
+    border-radius: 0 10px 10px 0;
+}
+.fourth p{
+    width: 205px;
+}
+
+.fourth input{
+    background-color: #fff;
+    border: 1px #fff solid;
+    border-radius: 15px;
+    color: hsl(179, 100%, 13%);
+    width: 100px;
+    height: 30px;
+    margin: 70px 0 0 0;
+    font-weight: 500;
+    
+}
+
+@media only screen and (max-width: 992px) {
+    .index{
+        flex-direction: column;
+    }
+    .second{
+        border-radius: 10px 10px 0 0;
+    }
+    .fourth{
+        border-radius:  0 0 10px 10px;
+    }
+}
+
+.second input:hover{
+    background-color: hsl(31, 77%, 52%);
+    cursor: pointer;
+    color: #fff;
+}
+
+.third input:hover{
+    background-color: hsl(184, 100%, 22%);
+    cursor: pointer;
+    color: #fff;
+}
+
+.fourth input:hover{
+    background-color: hsl(179, 100%, 13%);
+    cursor: pointer;
+    color: #fff;
+}
+
